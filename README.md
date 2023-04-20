@@ -1,8 +1,12 @@
-# Potência Tech Angular Developer - Powered by iFood
-#### Plataforma DIO.
+# Potência Tech Angular Developer - Powered by iFood 🚀
+#### Realizado na plataforma DIO.
 
-### Descrição
+![Logo Potência Tech Angular Developer - Powered by iFood](/src/logo-potencia-tech.webp)
+
+### 🧭 Descrição
 Projetos Realizados durante o bootcamp "Potência Tech Angular Developer - Powered by iFood" na DIO
 
+### 💡 Temas abordados no Bootcamp
+- Git/GitHub
 
-![Logo Potência Tech Angular Developer - Powered by iFood](https://hermes.dio.me/tracks/a123a707-54de-4a67-88ee-5c129beb14d7.png)
+### 🖥️ Projetos realizados
