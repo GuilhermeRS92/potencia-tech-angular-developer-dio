@@ -1,0 +1,214 @@
+body{
+    background: white url(images/icon-pokeball-gray.svg) no-repeat 50vw -60px;
+    background-size: 300px;
+}
+
+main{
+    padding: 60px 30px;
+}
+
+main .top-menu{
+    height: 45px;
+    margin-bottom: 28px;
+}
+
+main .title{
+    color: #777C83;
+    font-size: 3.6rem;
+    margin-bottom: 28px;
+}
+
+main .pokemon-list-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+main .pokemon-list-container .pokemon-box{
+    background-color: #49d0b0;
+    padding: 10px 16px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+main .pokemon-list-container .pokemon-box .pokemon-number{
+    font-size: 1.4rem;
+    align-self: flex-end;
+    color: black;
+    opacity: 0.3;
+}
+
+main .pokemon-list-container .pokemon-box .pokemon-name{
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 8px;
+}
+
+main .pokemon-list-container .pokemon-box .pokemon-informations{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-abilities-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-abilities-list .pokemon-ability{
+    font-size: 1.2rem;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image{
+    width: 85px;
+    height: 85px;
+    z-index: 50;
+}
+
+main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image img{
+    width: 100%;
+}
+
+main .pokemon-list-container .pokemon-box .background-image{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    opacity: 0.2;
+}
+
+@media(max-width: 350px){
+    main .pokemon-list-container{
+        grid-template-columns: 1fr;
+    }
+
+    body{
+        background: white url(images/icon-pokeball-gray.svg) no-repeat 50vw -60px;
+        background-size: 250px;
+    }
+
+    main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image{
+        width: 120px;
+        height: 120px;
+    }
+
+    main .pokemon-list-container .pokemon-box .background-image{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media(min-width: 750px){
+    html {
+        font-size: 100%;
+    }
+
+    body{
+        background: white url(images/icon-pokeball-gray.svg) no-repeat 75vw -60px;
+        background-size: 300px;
+    }
+
+    main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image{
+        width: 150px;
+        height: 150px;
+    }
+
+    main .pokemon-list-container .pokemon-box .background-image{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media(min-width: 1280px){
+    html {
+        font-size: 120%;
+    }
+
+    body{
+        background-size: 400px;
+    }
+
+    main .pokemon-list-container{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image{
+        width: 200px;
+        height: 200px;
+    }
+
+    main .pokemon-list-container .pokemon-box .background-image{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media(min-width: 1440px){
+    html {
+        font-size: 130%;
+    }
+
+    body{
+        background-size: 500px;
+    }
+
+    main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image{
+        width: 230px;
+        height: 230px;
+    }
+
+    main .pokemon-list-container .pokemon-box .background-image{
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media(min-width: 1920px){
+    html {
+        font-size: 150%;
+    }
+
+    body{
+        background-size: 600px;
+    }
+
+    main .pokemon-list-container{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image{
+        width: 240px;
+        height: 240px;
+    }
+
+    main .pokemon-list-container .pokemon-box .background-image{
+        width: 240px;
+        height: 240px;
+    }
+}
+
+@media(min-width: 2560px){
+    html {
+        font-size: 180%;
+    }
+
+    body{
+        background-size: 800px;
+    }
+
+    main .pokemon-list-container{
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+}
