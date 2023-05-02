@@ -1,5 +1,5 @@
 body{
-    background: white url(images/icon-pokeball-gray.svg) no-repeat 50vw -60px;
+    background: white url(../images/icon-pokeball-gray.svg) no-repeat 50vw -60px;
     background-size: 300px;
 }
 
@@ -46,6 +46,7 @@ main .pokemon-list-container .pokemon-box .pokemon-name{
     font-size: 1.8rem;
     color: white;
     margin-bottom: 8px;
+    text-transform: capitalize;
 }
 
 main .pokemon-list-container .pokemon-box .pokemon-informations{
@@ -92,7 +93,7 @@ main .pokemon-list-container .pokemon-box .background-image{
     }
 
     body{
-        background: white url(images/icon-pokeball-gray.svg) no-repeat 50vw -60px;
+        background: white url(../images/icon-pokeball-gray.svg) no-repeat 50vw -60px;
         background-size: 250px;
     }
 
@@ -113,7 +114,7 @@ main .pokemon-list-container .pokemon-box .background-image{
     }
 
     body{
-        background: white url(images/icon-pokeball-gray.svg) no-repeat 75vw -60px;
+        background: white url(../images/icon-pokeball-gray.svg) no-repeat 75vw -60px;
         background-size: 300px;
     }
 

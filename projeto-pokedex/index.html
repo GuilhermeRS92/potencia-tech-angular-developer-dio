@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/reset.css">
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <title>Pokedex</title>
 </head>
 <body>
@@ -14,8 +14,8 @@
 
         <h1 class="title">Pokedex</h1>
 
-        <div class="pokemon-list-container">
-            <div class="pokemon-box">
+        <ol class="pokemon-list-container" id="pokemon-list-container">
+            <li class="pokemon-box">
                 <h3 class="pokemon-number">#001</h3>
                 <h2 class="pokemon-name">Bulbasaur</h2>
                 <div class="pokemon-informations">
@@ -28,54 +28,10 @@
                     </div>
                 </div>
                 <img src="src/images/icon-pokeball-white.svg" class="background-image"></img>
-            </div>
-
-            <div class="pokemon-box">
-                <h3 class="pokemon-number">#002</h3>
-                <h2 class="pokemon-name">Ivysaur</h2>
-                <div class="pokemon-informations">
-                    <div class="pokemon-abilities-list">
-                        <p class="pokemon-ability">Grass</p>
-                        <p class="pokemon-ability">Poison</p>
-                    </div>
-                    <div class="pokemon-image">
-                        <img src="src/images/bulbasaur.webp" alt="Ivysaur">
-                    </div>
-                </div>
-                <img src="src/images/icon-pokeball-white.svg" class="background-image"></img>
-            </div>
-
-            <div class="pokemon-box">
-                <h3 class="pokemon-number">#002</h3>
-                <h2 class="pokemon-name">Ivysaur</h2>
-                <div class="pokemon-informations">
-                    <div class="pokemon-abilities-list">
-                        <p class="pokemon-ability">Grass</p>
-                        <p class="pokemon-ability">Poison</p>
-                    </div>
-                    <div class="pokemon-image">
-                        <img src="src/images/bulbasaur.webp" alt="Ivysaur">
-                    </div>
-                </div>
-                <img src="src/images/icon-pokeball-white.svg" class="background-image"></img>
-            </div>
-
-            <div class="pokemon-box">
-                <h3 class="pokemon-number">#002</h3>
-                <h2 class="pokemon-name">Ivysaur</h2>
-                <div class="pokemon-informations">
-                    <div class="pokemon-abilities-list">
-                        <p class="pokemon-ability">Grass</p>
-                        <p class="pokemon-ability">Poison</p>
-                    </div>
-                    <div class="pokemon-image">
-                        <img src="src/images/bulbasaur.webp" alt="Ivysaur">
-                    </div>
-                </div>
-                <img src="src/images/icon-pokeball-white.svg" class="background-image"></img>
-            </div>
-        </div>
+            </li>
+        </ol>
     </main>
-    <script src="src/main.js"></script>
+    <script src="src/js/poke-api.js"></script>
+    <script src="src/js/main.js"></script>
 </body>
 </html>
