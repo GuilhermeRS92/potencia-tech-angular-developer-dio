@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-Br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/images/icon-pokeball-red-black-white.svg" type="image/x-icon">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
-    <title>Pokedex</title>
+    <link rel="stylesheet" href="src/css/modal.css">
+    <title>PokeDEX-Ø</title>
 </head>
-<body>
-    <main>
-        <div class="top-menu"></div>
+<body id="body">
+    <main id="main-section">
 
-        <h1 class="title">Pokedex</h1>
+        <h1 class="title">Poke<em>dex</em></h1>
 
         <ol class="pokemon-list-container" id="pokemon-list-container">
             <!-- Pokemon list itens here   -->
         </ol>
     </main>
+
+    <!-- Pokemon modal detail here -->
 
     <nav class="pagination">
         <button id="loadMoreButton" type="button">
@@ -26,7 +29,9 @@
         </button>
     </nav>
     <script src="src/js/pokemon-model.js"></script>
+    <script src="src/js/pokemon-detail-model.js"></script>
     <script src="src/js/poke-api.js"></script>
     <script src="src/js/main.js"></script>
+    <script src="src/js/modal-pokemon-details.js"></script>
 </body>
 </html>

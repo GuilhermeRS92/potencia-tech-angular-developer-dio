@@ -7,19 +7,21 @@ let offset = 0
 function loadPokemonItens(offset, limit) {
     pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
         const newHtml = pokemons.map((pokemon) => `
+            <a onclick='getPokemonByName("${pokemon.name}")'>
                 <li class="pokemon-box ${pokemon.type}">
                     <h3 class="pokemon-number">#${pokemon.id}</h3>
                     <h2 class="pokemon-name">${pokemon.name}</h2>
                     <div class="pokemon-informations">
-                        <div class="pokemon-abilities-list">
-                            ${pokemon.types.map((type) => `<p class="pokemon-ability ${type}">${type}</p>`).join("")}
-                        </div>
+                        <ol class="pokemon-abilities-list">
+                            ${pokemon.types.map((type) => `<li class="pokemon-ability ${type}">${type}</li>`).join("")}
+                        </ol>
                         <div class="pokemon-image">
                             <img src="${pokemon.photo}" alt="${pokemon.name}">
                         </div>
                     </div>
                     <img src="src/images/icon-pokeball-white.svg" class="background-image"></img>
                 </li>
+            </a>
             `).join('')
         pokemonList.innerHTML += newHtml
     })
