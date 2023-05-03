@@ -4,7 +4,7 @@ body{
 }
 
 main{
-    padding: 60px 30px;
+    padding: 30px;
 }
 
 main .top-menu{
@@ -25,7 +25,6 @@ main .pokemon-list-container{
 }
 
 main .pokemon-list-container .pokemon-box{
-    background-color: #49d0b0;
     padding: 10px 16px;
     border-radius: 20px;
     display: flex;
@@ -61,14 +60,18 @@ main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-abiliti
 }
 
 main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-abilities-list .pokemon-ability{
+    user-select: none;
+    text-align: center;
     font-size: 1.2rem;
+    text-transform: capitalize;
     color: white;
     padding: 6px 15px;
     border-radius: 50px;
-    background-color: rgba(0, 0, 0, 0.2);
+    filter: brightness(1.1);
 }
 
 main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image{
+    position: relative;
     width: 85px;
     height: 85px;
     z-index: 50;
@@ -76,6 +79,15 @@ main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image{
 
 main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image img{
     width: 100%;
+    height: 100%;
+}
+
+main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image img:hover{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 120%;
+    height: 120%;
 }
 
 main .pokemon-list-container .pokemon-box .background-image{
@@ -85,6 +97,42 @@ main .pokemon-list-container .pokemon-box .background-image{
     right: 0;
     bottom: -10px;
     opacity: 0.2;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.pagination button{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+    font-kerning: normal;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.pagination button img{
+    height: 25px;
+}
+
+.pagination button:hover{
+    background-color: rgb(155, 1, 1);
+}
+
+.pagination button:hover img{
+    height: 30px;
 }
 
 @media(max-width: 350px){
@@ -212,4 +260,61 @@ main .pokemon-list-container .pokemon-box .background-image{
         grid-template-columns: repeat(5, 1fr);
         gap: 20px;
     }
+}
+
+/* TYPES COLORS */
+
+.bug{
+    background-color: #A7B723;
+}
+.dark{
+    background-color: #75574C;
+}
+.dragon{
+    background-color: #7037FF;
+}
+.electric{
+    background-color: #F9CF30;
+}
+.fairy{
+    background-color: #E69EAC;
+}
+.fighting{
+    background-color: #C12239;
+}
+.fire{
+    background-color: #F57D31;
+}
+.flying{
+    background-color: #A891EC;
+}
+.ghost{
+    background-color: #70559B;
+}
+.grass{
+    background-color: #74CB48;
+}
+.ground{
+    background-color: #DEC16B;
+}
+.ice{
+    background-color: #9AD6DF;
+}
+.normal{
+    background-color: #AAA67F;
+}
+.poison{
+    background-color: #A43E9E;
+}
+.psychic{
+    background-color: #FB5584;
+}
+.rock{
+    background-color: #B69E31;
+}
+.steel{
+    background-color: #B7B9D0;
+}
+.water{
+    background-color: #6493EB;
 }

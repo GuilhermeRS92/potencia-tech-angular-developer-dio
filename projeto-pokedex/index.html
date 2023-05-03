@@ -15,22 +15,17 @@
         <h1 class="title">Pokedex</h1>
 
         <ol class="pokemon-list-container" id="pokemon-list-container">
-            <li class="pokemon-box">
-                <h3 class="pokemon-number">#001</h3>
-                <h2 class="pokemon-name">Bulbasaur</h2>
-                <div class="pokemon-informations">
-                    <div class="pokemon-abilities-list">
-                        <p class="pokemon-ability">Grass</p>
-                        <p class="pokemon-ability">Poison</p>
-                    </div>
-                    <div class="pokemon-image">
-                        <img src="src/images/bulbasaur.webp" alt="Bulbasaur">
-                    </div>
-                </div>
-                <img src="src/images/icon-pokeball-white.svg" class="background-image"></img>
-            </li>
+            <!-- Pokemon list itens here   -->
         </ol>
     </main>
+
+    <nav class="pagination">
+        <button id="loadMoreButton" type="button">
+            Show more
+            <img src="src/images/icon-pokeball-white.svg" alt="Pokeball Icon White">
+        </button>
+    </nav>
+    <script src="src/js/pokemon-model.js"></script>
     <script src="src/js/poke-api.js"></script>
     <script src="src/js/main.js"></script>
 </body>
