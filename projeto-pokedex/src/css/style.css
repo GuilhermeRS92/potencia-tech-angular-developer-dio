@@ -78,14 +78,14 @@ main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image{
 }
 
 main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
     width: 100%;
     height: 100%;
 }
 
 main .pokemon-list-container .pokemon-box .pokemon-informations .pokemon-image img:hover{
-    position: absolute;
-    right: 0;
-    bottom: 0;
     width: 120%;
     height: 120%;
 }
@@ -135,7 +135,7 @@ main .pokemon-list-container .pokemon-box .background-image{
     height: 30px;
 }
 
-@media(max-width: 350px){
+@media(max-width: 375px){
     main .pokemon-list-container{
         grid-template-columns: 1fr;
     }
