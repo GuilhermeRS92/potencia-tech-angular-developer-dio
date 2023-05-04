@@ -1,4 +1,3 @@
-const pokemonList = document.getElementById('pokemon-list-container')
 const loadMoreButton = document.getElementById('loadMoreButton')
 const maxRecords = 251
 const limit = 9
@@ -23,6 +22,7 @@ function loadPokemonItens(offset, limit) {
                 </li>
             </a>
             `).join('')
+        const pokemonList = document.getElementById('pokemon-list-container')
         pokemonList.innerHTML += newHtml
     })
 }
