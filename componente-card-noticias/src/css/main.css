@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(0, 0, 139, 0.212);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+h1{
+    color:darkblue;
+    font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+card-news{
+    display: flex;
+    justify-content: center;
+}
