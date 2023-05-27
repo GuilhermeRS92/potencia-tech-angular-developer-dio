@@ -1,0 +1,18 @@
+.top-menu-container{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        font-size: 4rem;
+    }
+
+    nav{
+        .links-list{
+            font-size: 1.6rem;
+            display: flex;
+            gap: 30px;
+        }
+    }
+}
