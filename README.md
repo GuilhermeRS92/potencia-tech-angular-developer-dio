@@ -10,4 +10,5 @@ Projetos Realizados durante o bootcamp "Potência Tech Angular Developer - Power
 - Git/GitHub
 
 ### 🖥️ Projetos realizados
-- PokeDex consumindo a PokeAPI
+- PokeDex consumindo a PokeAPI;
+- Blog em Angular;
