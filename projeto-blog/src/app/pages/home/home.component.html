@@ -1,9 +1,14 @@
 <app-top-menu></app-top-menu>
-<main>
-    <div class="page-title">
-        <h1>Best of the week</h1>
-    </div>
-    <app-featured-post></app-featured-post>
-    <app-ads-container></app-ads-container>
-    <app-show-more-posts></app-show-more-posts>
-</main>
+<div class="container">
+    <main class="main-container">
+        <div class="page-title">
+            <h1>Best of the week</h1>
+            <a href=""><p class="link">See all posts +</p></a>
+        </div>
+        <app-featured-post></app-featured-post>
+    </main>
+    <aside class="aside-container">
+        <app-ads-container></app-ads-container>
+        <app-show-more-posts></app-show-more-posts>
+    </aside>
+</div>
