@@ -8,6 +8,15 @@ Projetos Realizados durante o bootcamp "Potência Tech Angular Developer - Power
 
 ### 💡 Temas abordados no Bootcamp
 - Git/GitHub
+- JavaScript
+- Protocolo HTTP
+- Integração com API
+- Web Componenents
+- Angular
+    - TypeScript
+    - LifeCycle Hooks
+    - Diretivas Estruturais e de Atributo
+    - Módulos
 
 ### 🖥️ Projetos realizados
 - PokeDex consumindo a PokeAPI;
