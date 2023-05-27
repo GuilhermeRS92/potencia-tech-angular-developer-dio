@@ -20,5 +20,8 @@
 
     .aside-container{
         padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
     }
 }
