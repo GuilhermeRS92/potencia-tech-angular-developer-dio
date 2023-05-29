@@ -5,7 +5,12 @@
             <h1>Best of the week</h1>
             <a (click)="navigateByUrl('fashion')"><p class="link">See all posts +</p></a>
         </div>
-        <app-featured-post></app-featured-post>
+        <app-featured-post 
+        [titlePost]="featurePostInformations.titlePost"
+        [datePost]="featurePostInformations.datePost"
+        [tags]="featurePostInformations.tags"
+        [imagePost]="featurePostInformations.imagePost"
+        ></app-featured-post>
     </main>
     <aside class="aside-container">
         <app-ads-container></app-ads-container>
