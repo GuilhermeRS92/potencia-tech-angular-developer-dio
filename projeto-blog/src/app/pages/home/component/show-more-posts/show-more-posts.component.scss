@@ -1,0 +1,41 @@
+.card-container{
+    width: 100%;
+    aspect-ratio: 1/1.1;
+    background: url(../../../../../assets/images/moda3.jpg) center center;
+    background-size: contain;
+    background-color: rosybrown;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    .quantity-post-container{
+        display: flex;
+        justify-content: flex-end;
+        .quantity-post-text{
+            padding: 20px;
+            border: solid white 1px;
+            border-radius: 50%;
+            color: white;
+            font-size: 2.2rem;
+            font-weight: 500;
+        }
+    }
+    .button-container{
+        display: flex;
+        justify-content: center;
+        .show-all-btn{
+            font-size: 2.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            padding: 30px;
+            border-radius: 50px;
+        }
+        .show-all-btn:hover{
+            color: indigo;
+            border-radius: 50px;
+        }
+    }
+}

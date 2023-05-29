@@ -3,9 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TopMenuComponent } from './shared/components/top-menu/top-menu.component';
 import { SharedModule } from './shared/shared.module';
 import { HomeModule } from './pages/home/home.module';
+import { FashionComponent } from './pages/fashion/fashion.component';
+import { FashionModule } from './pages/fashion/fashion.module';
+import { BeAWriterComponent } from './pages/be-a-writer/be-a-writer.component';
+import { BeAWriterModule } from './pages/be-a-writer/be-a-writer.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { HomeModule } from './pages/home/home.module';
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    HomeModule
+    HomeModule,
+    FashionModule,
+    BeAWriterModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

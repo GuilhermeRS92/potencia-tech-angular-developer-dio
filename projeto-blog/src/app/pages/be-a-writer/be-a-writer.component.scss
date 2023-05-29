@@ -1,0 +1,11 @@
+main{
+    width: 100vw;
+    padding: 40px;
+    .page-title{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        gap: 10px;
+        margin: 40px 0 65px 0;
+    }
+}
