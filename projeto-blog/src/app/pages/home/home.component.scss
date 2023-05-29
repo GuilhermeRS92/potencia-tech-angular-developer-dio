@@ -7,11 +7,13 @@
         padding: 40px;
 
         .page-title{
+            user-select: none;
             display: flex;
             align-items: baseline;
             gap: 10px;
             margin-bottom: 65px;
             .link{
+                cursor: pointer;
                 font-size: 1.7rem;
                 font-style: italic;
             }

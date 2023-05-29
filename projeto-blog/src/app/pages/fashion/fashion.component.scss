@@ -2,6 +2,7 @@ main{
     width: 100vw;
     padding: 40px;
     .page-title{
+        user-select: none;
         display: flex;
         justify-content: center;
         align-items: baseline;

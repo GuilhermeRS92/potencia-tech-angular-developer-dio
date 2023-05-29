@@ -13,6 +13,7 @@
         display: flex;
         justify-content: flex-end;
         .quantity-post-text{
+            user-select: none;
             padding: 20px;
             border: solid white 1px;
             border-radius: 50%;
@@ -25,6 +26,7 @@
         display: flex;
         justify-content: center;
         .show-all-btn{
+            user-select: none;
             font-size: 2.2rem;
             font-weight: 600;
             cursor: pointer;

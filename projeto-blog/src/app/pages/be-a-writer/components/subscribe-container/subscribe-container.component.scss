@@ -1,0 +1,92 @@
+.card-container{
+    width: 100%;
+    aspect-ratio: 1/0.2;
+    background: url(../../../../../assets/images/writer.jpg) center center no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: rosybrown;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 40px;
+
+    .container-title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .title{
+            color: white;
+            font-size: 6rem;
+            line-height: 110%;
+            user-select: none;
+        }
+    }
+
+    .form{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        .form-input-text{
+            padding: 40px;
+            border-radius: 50px;
+            border: solid white 1px;
+            background-color: rgba(255, 255, 255, 0.2);
+            font-size: 2.4rem;
+            color: white;
+        }
+        .form-input-text::placeholder{
+            font-weight: 300;
+            color: white;
+        }
+        .form-submit-button{
+            cursor: pointer;
+            padding: 20px 40px;
+            font-size: 2.4rem;
+            font-weight: 500;
+            border-radius: 60px;
+            background-color: black;
+            color: white;
+        }
+        .form-submit-button:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: solid 1px white;
+        padding: 30px 0 0 0;
+        color: white;
+
+        .buttons{
+            display: flex;
+            gap: 20px;
+            .btn{
+                cursor: pointer;
+                font-weight: 500;
+                padding: 10px 20px;
+                border-radius: 50px;
+            }
+            .white{
+                background-color: white;
+            }
+            .white:hover{
+                background-color: black;
+                color: white;
+            }
+            .black{
+                background-color: black;
+                color: white;
+            }
+            .black:hover{
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}

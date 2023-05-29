@@ -5,6 +5,8 @@
     justify-content: space-between;
     align-items: center;
     .logo{
+        cursor: pointer;
+        user-select: none;
         font-size: 4rem;
     }
 
@@ -13,6 +15,10 @@
             font-size: 1.6rem;
             display: flex;
             gap: 30px;
+            .link{
+                user-select: none;
+                cursor: pointer;
+            }
         }
     }
 }

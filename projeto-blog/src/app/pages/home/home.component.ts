@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   templateUrl: './home.component.html',
@@ -6,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  constructor(private router: Router){}
+
+  navigateByUrl(url: string) {
+    return this.router.navigateByUrl(url)
+  }
 }

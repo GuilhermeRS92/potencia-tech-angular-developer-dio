@@ -1,10 +1,10 @@
 <div class="top-menu-container">
-    <p class="logo">BlogSpot.</p>
+    <p class="logo" (click)="navigateByUrl('')">BlogSpot.</p>
     <nav>
         <ul class="links-list">
-            <li class="link"><a href="">Home</a></li>
-            <li><a href="">Fashion</a></li>
-            <li><a href="">Be a writer</a></li>
+            <li class="link" (click)="navigateByUrl('')"><a>Home</a></li>
+            <li class="link" (click)="navigateByUrl('fashion')"><a>Fashion</a></li>
+            <li class="link" (click)="navigateByUrl('be-a-writer')"><a>Be a writer</a></li>
         </ul>
     </nav>
     <input type="text" placeholder="Seach post">
