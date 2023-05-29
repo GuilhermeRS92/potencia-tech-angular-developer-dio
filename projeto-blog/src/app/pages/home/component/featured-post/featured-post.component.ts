@@ -14,6 +14,5 @@ export class FeaturedPostComponent implements OnInit{
 
  ngOnInit(): void {
   this.backgroundImage = `url(${this.imagePost})`
-  console.log(this.imagePost, this.backgroundImage)
  }
 }

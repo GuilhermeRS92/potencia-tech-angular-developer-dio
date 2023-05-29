@@ -1,13 +1,16 @@
 main{
     width: 100vw;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     .page-title{
         user-select: none;
         display: flex;
         justify-content: center;
         align-items: baseline;
         gap: 10px;
-        margin: 40px 0 65px 0;
+        margin: 40px 0 25px 0;
         .category{
             font-size: 1.7rem;
             font-style: italic;

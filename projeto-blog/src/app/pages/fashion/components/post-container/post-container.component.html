@@ -1,13 +1,13 @@
-<div class="card-container">
+<div class="card-container" [style.background-image]="backgroundImage">
     <div class="post-title">
-        <h2 class="title">Representing brand as the source for inspiration</h2>
+        <h2 class="title">{{ titlePost }}</h2>
     </div>
     <div class="post-informations">
         <div class="post-date-container">
-            <p class="date">Dec 28, 2022</p>
+            <p class="date">{{ datePost }}</p>
         </div>
-        <div class="post-tags-container">
-            <p class="tag">Fashion</p>
+        <div class="post-tags-container" *ngFor="let tag of tags">
+            <p class="tag">{{ tag }}</p>
         </div>
     </div>
 </div>

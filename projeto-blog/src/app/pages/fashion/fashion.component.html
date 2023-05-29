@@ -4,5 +4,10 @@
         <h1>Fashion</h1>
         <p class="text">Category</p>
     </div>
-    <app-post-container></app-post-container>
+    <app-post-container *ngFor="let post of postsList"
+    [titlePost]="post.titlePost"
+    [datePost]="post.datePost"
+    [tags]="post.tags"
+    [imagePost]="post.imagePost"
+    ></app-post-container>
 </main>
