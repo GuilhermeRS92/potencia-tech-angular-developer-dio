@@ -1,12 +1,13 @@
 <div class="card-container">
-    <div class="container-title">
+    <div class="container-title" *ngIf="!formSended">
         <h2 class="title">Join now</h2>
     </div>
-    <div class="form">
-        <input type="text" class="form-input-text" placeholder="Your name">
-        <input type="email" class="form-input-text" placeholder="Your email">
-        <button class="form-submit-button">Submit</button>
+    <div class="form" *ngIf="!formSended">
+        <input type="text" class="form-input-text" placeholder="Your name" [(ngModel)]="userName">
+        <input type="email" class="form-input-text" placeholder="Your email" [(ngModel)]="userEmail">
+        <button class="form-submit-button" (click)="sendForm()">Submit</button>
     </div>
+    <app-sucess-message *ngIf="formSended" [userName]="userName" [userEmail]="userEmail" ></app-sucess-message>
     <div class="footer-container">
         <div class="footer-message">
             <p class="message">We Wish to make you a Good Experience!</p>
