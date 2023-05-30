@@ -26,3 +26,4 @@ Uma lista dos assuntos abordados durante o Bootcamp, os resumos podem ser encont
 ### 🖥️ Projetos realizados
 - [PokeDex consumindo a PokeAPI](https://github.com/GuilhermeRS92/potencia-tech-angular-developer-dio/tree/main/projeto-pokedex);
 - [Blog em Angular](https://github.com/GuilhermeRS92/potencia-tech-angular-developer-dio/tree/main/projeto-blog);
+- [Clone do BuzzFeed](https://github.com/GuilhermeRS92/potencia-tech-angular-developer-dio/tree/main/projeto-quiz-feed)
